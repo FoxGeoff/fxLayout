@@ -41,4 +41,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 })
 export class AppModule { }
 ...
-````
+```
+
+### Task: Add forms module to app.module
