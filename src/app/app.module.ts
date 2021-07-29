@@ -7,12 +7,14 @@ import { MaterialModule } from './material/material.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { CardsComponent } from './cards/cards.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { SideNavComponent } from './side-nav/side-nav.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CardsComponent,
-    NavBarComponent
+    NavBarComponent,
+    SideNavComponent
   ],
   imports: [
     BrowserModule,
