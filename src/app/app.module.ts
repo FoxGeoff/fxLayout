@@ -9,6 +9,7 @@ import { CardsComponent } from './cards/cards.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { SideNavComponent } from './side-nav/side-nav.component';
 import { CardVariousComponent } from './card-various/card-various.component';
+import { HolyGrailComponent } from './holy-grail/holy-grail.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CardVariousComponent } from './card-various/card-various.component';
     CardsComponent,
     NavBarComponent,
     SideNavComponent,
-    CardVariousComponent
+    CardVariousComponent,
+    HolyGrailComponent
   ],
   imports: [
     BrowserModule,
