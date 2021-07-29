@@ -10,6 +10,7 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { SideNavComponent } from './side-nav/side-nav.component';
 import { CardVariousComponent } from './card-various/card-various.component';
 import { HolyGrailComponent } from './holy-grail/holy-grail.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { HolyGrailComponent } from './holy-grail/holy-grail.component';
     BrowserModule,
     BrowserAnimationsModule,
     MaterialModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    FormsModule
 
   ],
   providers: [],
